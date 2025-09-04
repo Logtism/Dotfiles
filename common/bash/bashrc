@@ -1,0 +1,18 @@
+# .bashrc
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+PS1='[\u@\h \W]\$ '
+
+export TERMINAL='alacritty'
+export EDITOR='nvim'
+export FILE_MANAGER_TERM='ranger'
+export FILE_MANAGER_GUI='dbus-run-session thunar'
+
+alias ls='ls --color=auto'
+alias ll='ls -lAh'
+
+alias update='sudo xbps-install -Su && flatpak update'
+
+fastfetch
