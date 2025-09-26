@@ -8,3 +8,7 @@ bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
+
+# Move focus to diffrent output
+bindsym $mod+Ctrl+left focus output left
+bindsym $mod+Ctrl+right focus output right

@@ -1,3 +1,5 @@
-bindsym $mod+e exec thunar
+bindsym $mod+e exec $file_manager_gui
+bindsym $mod+b exec $browser
+bindsym Ctrl+Shift+Delete exec $activity_monitor
 
 bindsym $mod+Shift+l exec swaylock

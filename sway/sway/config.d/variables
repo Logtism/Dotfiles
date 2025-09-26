@@ -13,12 +13,16 @@ set $bar_theme basic
 
 # Apps
 set $term alacritty
-set $file_manager thunar
+set $file_manager_tui ranger
+set $file_manager_gui thunar
 set $launcher rofi -show drun
+set $browser flatpak run net.mullvad.MullvadBrowser
+set $activity_monitor alacritty --command btop
 
 # Borders
 default_border pixel 2
 gaps inner 5
+smart_gaps on
 
 # Misc
 focus_follows_mouse no
