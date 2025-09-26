@@ -1,0 +1,6 @@
+exec_always autotiling -l 2
+
+exec pipewire
+exec /usr/libexec/xfce-polkit
+exec swayidle
+exec dunst

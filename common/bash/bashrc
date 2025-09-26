@@ -8,7 +8,7 @@ PS1='[\u@\h \W]\$ '
 export TERMINAL='alacritty'
 export EDITOR='nvim'
 export FILE_MANAGER_TERM='ranger'
-export FILE_MANAGER_GUI='dbus-run-session thunar'
+export FILE_MANAGER_GUI='thunar'
 
 alias ls='ls --color=auto'
 alias ll='ls -lAh'

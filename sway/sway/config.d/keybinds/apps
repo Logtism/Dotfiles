@@ -1,0 +1,3 @@
+bindsym $mod+e exec thunar
+
+bindsym $mod+Shift+l exec swaylock

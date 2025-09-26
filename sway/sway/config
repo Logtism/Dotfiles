@@ -1,0 +1,18 @@
+include ~/.config/sway/config.d/variables
+
+include ~/.config/sway/config.d/outputs
+include ~/.config/sway/config.d/inputs
+
+include ~/.config/sway/config.d/startup
+
+include ~/.config/sway/config.d/keybinds/basic
+include ~/.config/sway/config.d/keybinds/moving
+include ~/.config/sway/config.d/keybinds/workspaces
+include ~/.config/sway/config.d/keybinds/layout
+include ~/.config/sway/config.d/keybinds/resizing
+include ~/.config/sway/config.d/keybinds/apps
+
+include ~/.config/sway/config.d/bar
+
+
+include /etc/sway/config.d/*

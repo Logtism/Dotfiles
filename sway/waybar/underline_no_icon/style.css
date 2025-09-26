@@ -1,0 +1,30 @@
+@import 'colors/one-dark.css';
+
+
+window#waybar {
+    background-color: @bg-color;
+}
+
+#workspaces button {
+    padding: 0 0px;
+    margin: 0;
+    color: @text-normal;
+}
+
+#workspaces button.empty {
+    color: @text-active;
+}
+
+#workspaces button.visible {
+    color: @secondary-color;
+}
+
+#workspaces button.focused {
+    color: @primary-color;
+}
+
+#custom-kernel_info, #cpu, #memory, #wireplumber, #clock {
+    color: @text-normal;
+    border-bottom: 2px solid @primary-color;
+    margin: 0 2px;
+}
